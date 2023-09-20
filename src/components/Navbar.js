@@ -19,9 +19,9 @@ const Navbar = () => {
             <a href="https://github.com/james-txt/" class="bttn">
               <i class="fa fa-github" aria-hidden="true" />
             </a>
-            <a href="https://www.linkedin.com/in/james-txt" class="bttn">
+            {/*<a href="https://www.linkedin.com/in/james-txt" class="bttn">
               <i class="fa fa-linkedin" aria-hidden="true" />
-            </a>
+            </a>*/}
             <a href="https://goo.gl/maps/hTNVxygoh74GWkwh9" class="bttn">
               <i class="fa fa-map-marker" aria-hidden="true" />
             </a>

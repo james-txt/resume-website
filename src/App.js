@@ -22,8 +22,8 @@ function App() {
         <Navbar/>
       <main>
         <Routes>
-            <Route path="/cookingboard" element={<Cookingboard/>} />
-            <Route path="/" element={<Project/>} />
+            <Route exact path="/cookingboard" element={<Cookingboard />} />
+            <Route path="/" element={<Project />} />
         </Routes>
       </main>
         <Footer/>
