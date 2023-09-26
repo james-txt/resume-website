@@ -22,7 +22,7 @@ const Navbar = () => {
             {/*<a href="https://www.linkedin.com/in/james-txt" class="bttn">
               <i class="fa fa-linkedin" aria-hidden="true" />
             </a>*/}
-            <a href="https://goo.gl/maps/hTNVxygoh74GWkwh9" class="bttn">
+            <a href="https://maps.app.goo.gl/jdVqkjfwU4U7DRqx5" class="bttn">
               <i class="fa fa-map-marker" aria-hidden="true" />
             </a>
           </nav>
