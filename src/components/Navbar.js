@@ -22,7 +22,7 @@ const Navbar = () => {
             {/*<a href="https://www.linkedin.com/in/james-txt" class="bttn">
               <i class="fa fa-linkedin" aria-hidden="true" />
             </a>*/}
-            <a href="https://maps.app.goo.gl/jdVqkjfwU4U7DRqx5" class="bttn">
+            <a href="https://maps.app.goo.gl/b1ytkgWiRpfuUpWq5" class="bttn">
               <i class="fa fa-map-marker" aria-hidden="true" />
             </a>
           </nav>
@@ -33,7 +33,7 @@ const Navbar = () => {
                 <p1 class="bproject bttn">Projects</p1>
               </Link>
               <span class="px-2">|</span>
-              <a href="/James Lo Resume Aug2023.pdf" target="_blank" rel="noopener noreferrer">
+              <a href="/James Lo Resume 2023.pdf" target="_blank" rel="noopener noreferrer">
                 <p1 class="bresume bttn">Resume</p1>
               </a>
           </nav>
