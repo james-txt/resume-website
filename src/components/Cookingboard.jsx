@@ -33,7 +33,7 @@ const Cookingboard = () => {
             <h1 className="pj1">Cooking Board</h1>
             <p className="d-block pj3">Food Recipe Web App</p>
             <div className="d-block">
-            <a href="https://cooking-board.vercel.app/">cookingboard.live/</a>
+            <a href="https://cooking-board.vercel.app/">https://cooking-board.vercel.app/</a>
             </div>
             <h2 className="d-inline-block pj2 pt-40">Overview</h2>
             <p className="d-inline-block pj3 pt-1">
