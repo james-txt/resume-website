@@ -32,6 +32,9 @@
   font-family: 'Questrial', sans-serif !important;
 }
 
+.bg-charcoal {
+  background-color: #414141;
+}
 
 .bg-nord-light {
   background-color: var(--nord6);
@@ -43,6 +46,14 @@
 
 .bg-grey {
   background-color: #F1F5F9;
+}
+
+.bg-turq {
+  background-color: #86bbd8;
+}
+
+.bg-peach {
+  background-color: #D08770;
 }
 
 .bg-purple {
@@ -73,6 +84,10 @@
   max-width: 50px;
   max-height: 50px;
   overflow: hidden;
+}
+
+.App {
+background-color: #F2F2F2;
 }
 
 /*          Quicklink buttons          */
@@ -136,29 +151,21 @@ h1 {
   font-family: sans-serif;
   font-size: 36px;
   font-weight: bold;
-  color: var(--nord0);
+
+}
+
+h2 {
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  color: #3B3B3B;
 }
 
 p {
   font-family: sans-serif;
   font-size: 12px;
   font-weight: normal;
-  text-align: center;
   color: #3B3B3B;
-}
-
-p1 {
-  font-family: sans-serif;
-  font-size: 12px;
-  font-weight: normal;
-  color: #3B3B3B;
-}
-
-p2 {
-  font-family: sans-serif;
-  font-size: 30px;
-  font-weight: semi-bold;
-  color: var(--nord0);
 }
 
 ul {
@@ -169,12 +176,7 @@ ul {
   color: #3B3B3B;
 }
 
-h2 {
-  font-family: sans-serif;
-  font-size: 14px;
-  font-weight: bold;
-  color: #3B3B3B;
-}
+
 
 a:link, a:visited, a:hover, a:active { 
   color:  #000000;
@@ -199,7 +201,7 @@ a:link, a:visited, a:hover, a:active {
   background-color: #E5D8CE;
 }
 
-pj1 {
+.pj1 {
   color: #1E1E1E;
   font-family: Poppins;
   font-size: 50px;
@@ -209,7 +211,7 @@ pj1 {
   letter-spacing: -1.15px;
 }
 
-pj2 {
+.pj2 {
   color: #1E1E1E;
   text-align: center;
   font-family: Poppins;
@@ -220,7 +222,7 @@ pj2 {
   letter-spacing: -0.88px;
 }
 
-pj3 {
+.pj3 {
   color: #1E1E1E;
   font-family: Poppins;
   font-size: 20px;
