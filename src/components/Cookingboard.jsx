@@ -1,4 +1,4 @@
-import React from "react";
+import { React, useEffect } from "react";
 import Image from "./Image";
 import phoneprev1 from "./img/s1prev1.png";
 import mobilefw from "./img/mobilefw.png";
@@ -19,9 +19,11 @@ import testing from "./img/testing.png";
 import testing1 from "./img/testing1.png";
 import todo from "./img/todo.png";
 
-
-
 const Cookingboard = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <main>
       <section className="container-fluid bg-strawberry">
@@ -201,8 +203,13 @@ const Cookingboard = () => {
         </div>
         <div className="container col-12 justify-content-center text-center pt-40">
           <Image image={todo} alt="todo"/>
+          <p className="pj3 pt-40">Check out the Web App now!</p>
+            <a href="https://cooking-board.vercel.app/">https://cooking-board.vercel.app/
+            </a>
         </div>
-        <div className="d-inline-block mb-150"></div>
+        <div className="d-inline-block mb-150">
+
+        </div>
       </section>
 
     </main>  
