@@ -56,8 +56,9 @@ const Cookingboard = () => {
           <h2 className="pj2">Design</h2>
           <p className="d-inline-block pj3 pt-1">
           Gaining inspiration from various popular recipe websites, using their foundation to construct the wireframe layout. 
-          This approach infuses proven design elements into the layout.            
+          This approach infuses proven design elements into the layout. The design process was conducted using Figma, a collaborative interface design tool, to create a visually appealing and user-friendly interface.
           </p>
+          <a href="https://www.figma.com/design/DBO77uJtlM6JQaffi64unZ/Cooking-Board?node-id=17-6&t=i01NvZmWbmLJo7KG-1" target="_blank" rel="noreferrer">View Figma File Here</a>
         </div>
         <div className="container justify-content-center pt-10">
           <Image image={mobilefw} alt="mobilefw"/>
