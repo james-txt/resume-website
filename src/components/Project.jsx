@@ -51,8 +51,7 @@ const Project = () => {
               </div>
               <div className="col-md-4 my-auto">
                 <h1 className="text-md-end text-center pt-3 tx-white Poppins fw-semibold">Cybersecurity Awareness Campaign</h1>
-                <p className="fs-6 text-center text-md-end tx-white fw-medium Montserrat">For Innovatech Solutions</p>
-                <p className="fs-7 text-center text-md-end tx-white fw-medium Montserrat">- Work in progress -</p>
+                <p className="fs-6 text-center text-md-end tx-white fw-medium Montserrat">Innovatech Solutions web app</p>
               </div>
             </div>
           </a>
