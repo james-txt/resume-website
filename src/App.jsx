@@ -17,7 +17,7 @@ function App() {
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous"/>        
         <script src="https://kit.fontawesome.com/2565ff5cba.js" crossorigin="anonymous"></script>
-        <title>James Lo's Resume</title>
+        <title>James Lo's Portfolio</title>
       </Helmet>
         <Navbar/>
       <main>
