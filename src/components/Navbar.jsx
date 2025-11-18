@@ -32,7 +32,7 @@ const Navbar = () => {
                 <p className="bproject bttn">Projects</p>
               </Link>
               <span className="px-2 my-2">|</span>
-              <a href="https://websiteresume.blob.core.windows.net/$web/James%20Lo%20Resume.pdf" target="_blank" rel="noopener noreferrer">
+              <a href="https://pc9hcrxwr03llyvw.public.blob.vercel-storage.com/James%20Lo%20Resume.pdf" target="_blank" rel="noopener noreferrer">
                 <p className="bresume bttn">Resume</p>
               </a>
           </nav>
