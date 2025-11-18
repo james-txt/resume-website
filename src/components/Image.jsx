@@ -1,28 +1,24 @@
 import React, { useState } from "react";
 
 const Image = ({ image }) => {
-  const [isMagnified, setIsMagnified] = useState(false);
-
-  const handleClick = () => {
-    setIsMagnified(!isMagnified);
-  };
+  const [isHovered, setIsHovered] = useState(false);
 
   return (
-    <div>
-      <img 
-      src={image} className="img-fluid" alt="{image}" 
-      onClick={handleClick} style={{ cursor: "zoom-in" }} 
+    <div
+      onMouseEnter={() => setIsHovered(true)}
+      onMouseLeave={() => setIsHovered(false)}
+      style={{ display: "inline-block", overflow: "hidden" }}
+    >
+      <img
+        src={image}
+        className="img-fluid"
+        alt="{image}"
+        style={{
+          cursor: "zoom-in",
+          transition: "transform 0.3s ease",
+          transform: isHovered ? "scale(1.15)" : "scale(1)",
+        }}
       />
-      {isMagnified && (
-        <div 
-        onClick={handleClick} 
-        style={{ position: "fixed", top: 0, left: 0, width: "100%", 
-        height: "100%", background: "rgba(0, 0, 0, 0.2)", 
-        textAlign: "center", zIndex: 1000, overflow: "auto"}}>
-          <img src={image} className="bg-neutral" alt="Magnified {image}" 
-          style={{ Width: "100%", Height: "100%", cursor: "zoom-out" }} />
-        </div>
-      )}
     </div>
   );
 };
